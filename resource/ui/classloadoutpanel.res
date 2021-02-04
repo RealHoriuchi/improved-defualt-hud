@@ -421,7 +421,7 @@
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"xpos"			"0"
+		"xpos"			"-154"
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
