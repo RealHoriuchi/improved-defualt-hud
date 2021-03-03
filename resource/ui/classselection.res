@@ -30,6 +30,26 @@
 		"tabPosition"	"0"
 	}
 	
+	"Randomtxt"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Randomtxt"
+		"xpos"			"c256"
+		"ypos"			"96"
+		"zpos"			"2"
+		"wide"			"99"
+		"tall"			"12"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Random"
+		"textAlignment"	"left"
+		"font"			"MenuClassBuckets"
+		"fgcolor"		"TanDark"
+	}
+	
 	"random"
 	{
 		"ControlName"		"CExImageButton"
