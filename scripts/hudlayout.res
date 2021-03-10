@@ -1,10 +1,39 @@
-//	Crosshairs section moved to separate file (idhud-master\scripts\hudcrosshairs.res)
-
 #base "../basefiles/hudlayout.res"
-#base "../scripts/hudcrosshairs.res"
 
 "Resource/HudLayout.res"
 {
+	"HudVoiceStatus"
+	{
+		"xpos"		"r162"
+		"ypos"		"0"
+		"wide"		"150"
+		"tall"		"400"
+		
+		"item_tall"		"14"
+		"item_wide"		"195"
+		"item_spacing"	"2"
+		
+		"show_avatar"		"1"
+		"show_friend"		"1"
+		"show_voice_icon"	"0"
+		"show_dead_icon"	"1"
+		
+		"dead_xpos"		"0"
+		"dead_ypos"		"0"
+		"dead_wide"		"14"
+		"dead_tall"		"14"
+		
+		"avatar_xpos"	"14"
+		"avatar_ypos"	"0"
+		"avatar_wide"	"14"
+		"avatar_tall"	"14"
+		
+		"text_xpos"		"40"
+		
+		"fade_in_time"	"0.0"
+		"fade_out_time"	"0.0"
+	}
+
 	HudMedicCharge
 	{
 		"xpos"					"0"

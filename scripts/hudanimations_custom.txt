@@ -90,14 +90,6 @@ event HudMedicChargedStop
 
 //===========================================
 
-!!! DO NOT SHIP BYPASS HACK EVER !!!
-
-event DamagedPlayer
-{
-}
-
-//===========================================
-
 event HudSpyDisguiseChanged { }
 
 event HudSpyDisguiseHide { }

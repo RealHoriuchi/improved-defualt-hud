@@ -2714,10 +2714,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"c-14+273"
+		"xpos"			"c-10+273"
 		"ypos"			"437"
 		"zpos"			"4"
-		"wide"			"30"
+		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -2734,6 +2734,53 @@
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"CoachPlayersButton"
+		"navRight"		"ReloadMenuButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"MainMenuSubButtonBorder"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"5"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_bug"
+			"scaleImage"	"1"
+		}				
+	}
+	
+	"ReloadMenuButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"ReloadMenuButton"
+		"xpos"			"c10+273"
+		"ypos"			"437"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine incrementvar mat_antialias 1 2 1"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"ReportBugButton"
 		"navRight"		"SettingsButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -2751,10 +2798,10 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"glyph_bug"
+			"image"			"glyph_disconnect"
 			"scaleImage"	"1"
 		}				
-	}			
+	}	
 				
 	
 	"BackToReplaysButton"
