@@ -17,6 +17,41 @@ Scheme
 
 	Fonts
 	{
+		//
+		//////////////////// CUSTOM FONT MOD //////////////////////////////
+		//
+
+		"CustomNotoMonoVerySmall"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "8"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomNotoMonoMedium"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomVerdanaSmall"
+		{
+			"1"
+			{
+				"name" "Verdana"
+				"tall" "7"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
 
 		"Crosshairs24"							//1.17; 
 		{										//There and below — crosshair number in the table
@@ -743,6 +778,135 @@ Scheme
 		}
 	}
 
+	//
+	//////////////////// BORDERS //////////////////////////////
+	//
+	// describes all the border types
+	Borders
+	{
+		
+
+	//////////////////// CUSTOM FONT MOD CYAN BORDER //////////////////////////////
+	//
+		CyanBorderThick 
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "15 255 255 255"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "15 255 255 255"
+					"offset" "2 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "15 255 255 255"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "15 255 255 255"
+					"offset" "2 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "15 255 255 255"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "15 255 255 255"
+					"offset" "2 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "15 255 255 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "15 255 255 255"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "15 255 255 255"
+					"offset" "2 0"
+				}
+			}
+		}
+
+
+		NoBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+	}
+
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -820,6 +984,15 @@ Scheme
 		{
 			"font" "resource/fonts/tf2cross.ttf"
 			"name" "tf2cross"
+		}
+		"12" 
+		{
+			"font" "resource/CustomNotoMono.otf"
+			"name" "CustomNotoMono"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
 		}
 	}
 }
