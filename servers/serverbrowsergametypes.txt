@@ -77,12 +77,57 @@
 	}
 	"gametype_16"
 	{
-		"prefix"	"trade_"
-		"name"		"trade"
+		"prefix"	"rj_"
+		"name"		"jump"
 	}
 	"gametype_17"
 	{
+		"prefix"	"trade_"
+		"name"		"trade"
+	}
+	"gametype_18"
+	{
 		"prefix"	"br_"
 		"name"		"battle royale"
+	}
+	"gametype_19"
+	{
+		"prefix"	"db_"
+		"name"		"dodgeball"
+	}
+	"gametype_20"
+	{
+		"prefix"	"mge_"
+		"name"		"my gaming edge"
+	}
+	"gametype_21"
+	{
+		"prefix"	"ba_"
+		"name"		"jail break"
+	}
+	"gametype_22"
+	{
+		"prefix"	"jail_"
+		"name"		"jail break"
+	}
+	"gametype_23"
+	{
+		"prefix"	"sb_"
+		"name"		"smash fortress"
+	}
+	"gametype_24"
+	{
+		"prefix"	"zf_"
+		"name"		"zombie fortress"
+	}
+	"gametype_25"
+	{
+		"prefix"	"szf_"
+		"name"		"super zombie fortress"
+	}
+	"gametype_26"
+	{
+		"prefix"	"tf2ware_"
+		"name"		"team fortress 2 ware"
 	}
 }

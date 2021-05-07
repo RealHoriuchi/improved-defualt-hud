@@ -2,6 +2,17 @@
 
 "Resource/UI/PvPRankPanel.res"
 {
+	"ModelContainer"
+	{
+		"RankModel"
+		{
+			"model"
+			{
+				"origin_x"		"55"
+			}
+		}
+	}
+
 	"BGPanel"
 	{
 		"StatsContainer"

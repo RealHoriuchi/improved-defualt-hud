@@ -596,7 +596,7 @@
 		}
 	}
 	
-		"TauntCaratLabel"
+	"TauntCaratLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TauntCaratLabel"
